@@ -29,3 +29,8 @@ The application follows a directed acyclic graph (DAG):
 1. Clone the repository:
    ```bash
    git clone https://github.com/hardslugger/VibeTune-AI-Music-Suggester
+2.Install dependencies:
+   ```bash
+   pip install langgraph langchain_openai pydantic python-dotenv streamlit
+
+
