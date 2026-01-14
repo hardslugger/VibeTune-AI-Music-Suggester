@@ -32,5 +32,12 @@ The application follows a directed acyclic graph (DAG):
 2.Install dependencies:
    ```bash
    pip install langgraph langchain_openai pydantic python-dotenv streamlit
-
-
+   ```
+3. Create a .env file and add your OpenAI API key:
+   ```bash
+   OPENAI_API_KEY=your_actual_key_here
+   ```
+4.Run the application:
+   ```bash
+   streamlit run app.py
+   ```
